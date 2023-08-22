@@ -1,4 +1,5 @@
 # TypeScript 샘플
+- URL : https://www.typescripttutorial.net/typescript-tutorial/typescript-array-type/
 ## 테스트를 위한 프로그램 버전
 1. Node.js : v19.5.0
 2. npm : 9.3.1

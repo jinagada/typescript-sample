@@ -1,12 +1,22 @@
 {
   "name": "typescript-sample",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript 사용지침(Tutorial) https://www.typescripttutorial.net/typescript-tutorial",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinagada/typescript-sample.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinagada/typescript-sample/issues"
+  },
+  "homepage": "https://github.com/jinagada/typescript-sample#readme"
 }

@@ -1,6 +1,6 @@
 let counter: number = 0;
 
-function increment(counter: number) : number {
+function increment(counter: number): number {
     return counter++;
 }
 

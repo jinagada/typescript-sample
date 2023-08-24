@@ -10,7 +10,7 @@ skills2 = ['Problem Sovling', 'Software Design', 'Programming'];
 // skills2.push(100); // error
 
 let skill = skills2[0];
-console.log(typeof(skill));
+console.log(typeof (skill));
 
 let series = [1, 2, 3];
 console.log(series.length);
